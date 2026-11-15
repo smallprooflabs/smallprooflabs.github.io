@@ -21,17 +21,6 @@
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
-  <header class="nav">
-    <div class="wrap">
-      <a class="brand" href="./" aria-label="Small Proof Labs home"><img src="./assets/mark-navy.svg" width="28" height="28" alt="">Small Proof Labs</a>
-      <nav class="nav-links" aria-label="Main">
-        <a href="#notebook" data-filter="tool">Tools</a>
-        <a href="#notebook" data-filter="data">Data</a>
-        <a href="#notebook" data-filter="all">Notebook</a>
-        <a href="https://github.com/smallprooflabs">GitHub</a>
-      </nav>
-    </div>
-  </header>
 
   <main id="main">
     <section class="hero" aria-labelledby="headline">
@@ -47,74 +36,35 @@
         </g>
       </svg>
       <div class="wrap inner">
+        <a class="brand hero-brand" href="./" aria-label="Small Proof Labs home"><img src="./assets/mark-navy.svg" width="40" height="40" alt="">Small Proof Labs</a>
         <p class="eyebrow"><span class="sq" aria-hidden="true"></span>Independent software and data for research</p>
         <h1 id="headline">Useful tools. Open data.</h1>
         <p class="serif-line">Less busywork<span class="cu">.</span></p>
         <p class="lede">Building things to make life a little easier, and showing our work while we do it.</p>
         <div class="actions">
-          <a class="btn btn-primary" href="#notebook" data-filter="tool">See the tools</a>
-          <a class="btn btn-quiet" href="#notebook" data-filter="data">Browse the data ›</a>
+          <a class="btn btn-primary" href="https://github.com/smallprooflabs">Follow along on GitHub</a>
         </div>
       </div>
     </section>
 
     <div class="wrap">
       <div class="cards">
-        <a class="card card-tools" href="#notebook" data-filter="tool">
+        <div class="card card-tools">
           <span class="corner tl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
           <p class="label"><span class="sq" aria-hidden="true"></span>01 / Tools</p>
           <h2>Small software, done properly.</h2>
           <p class="body">Apps and plugins for the jobs that eat your week.</p>
           <svg class="ghost" viewBox="0 0 256 256" aria-hidden="true"><g fill="none" stroke="rgba(255,255,255,.18)" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"><path d="M 151 39 L 64 99 Q 52 109 64 121 L 77 135"/><path d="M 151 39 L 64 99 Q 52 109 64 121 L 77 135" transform="rotate(180 128 128)"/></g><rect x="113" y="113" width="30" height="30" rx="2" fill="#c7834b"/></svg>
-        </a>
-        <a class="card card-data" href="#notebook" data-filter="data">
+        </div>
+        <div class="card card-data">
           <span class="corner tl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
           <p class="label"><span class="sq" aria-hidden="true"></span>02 / Data</p>
           <h2>Show your work.</h2>
           <p class="body">Open data and maps with the code attached. Because “available upon request” isn’t.</p>
           <svg viewBox="0 0 400 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0 116 H400" stroke="#c6ccd8"/><path d="M0 104 L50 96 L100 99 L150 74 L200 79 L250 52 L300 58 L350 28 L400 20" fill="none" stroke="#2f5fae" stroke-width="3" vector-effect="non-scaling-stroke"/><rect x="344" y="22" width="12" height="12" fill="#c7834b"/></svg>
-        </a>
+        </div>
       </div>
 
-      <section class="notebook" id="notebook" aria-labelledby="nb-title">
-        <div class="nb-head">
-          <h2 id="nb-title">The Notebook<span class="cu">.</span></h2>
-          <div class="seg" role="group" aria-label="Filter the notebook">
-            <button type="button" data-set="all" aria-pressed="true">All</button>
-            <button type="button" data-set="tool" aria-pressed="false">Tools</button>
-            <button type="button" data-set="data" aria-pressed="false">Data</button>
-          </div>
-        </div>
-
-        <div class="row" data-kind="tool">
-          <span class="num">001</span>
-          <span class="thumb thumb-tool" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 256 256"><g fill="none" stroke="#fff" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"><path d="M 151 39 L 64 99 Q 52 109 64 121 L 77 135"/><path d="M 151 39 L 64 99 Q 52 109 64 121 L 77 135" transform="rotate(180 128 128)"/></g></svg></span>
-          <div class="text"><h3>Cite for Pages</h3><p>Zotero citations and bibliographies in Apple Pages. Finally.</p></div>
-          <span class="tag">Mac app</span>
-          <span class="status">In development</span>
-        </div>
-        <div class="row" data-kind="tool">
-          <span class="num">002</span>
-          <span class="thumb thumb-tool" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 256 256"><g fill="none" stroke="#fff" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"><path d="M 151 39 L 64 99 Q 52 109 64 121 L 77 135"/><path d="M 151 39 L 64 99 Q 52 109 64 121 L 77 135" transform="rotate(180 128 128)"/></g></svg></span>
-          <div class="text"><h3>Contacts Export</h3><p>Take your iCloud contacts anywhere, every field and photo intact.</p></div>
-          <span class="tag">Mac utility</span>
-          <span class="status">In development</span>
-        </div>
-        <div class="row" data-kind="tool">
-          <span class="num">003</span>
-          <span class="thumb thumb-tool" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 256 256"><g fill="none" stroke="#fff" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"><path d="M 151 39 L 64 99 Q 52 109 64 121 L 77 135"/><path d="M 151 39 L 64 99 Q 52 109 64 121 L 77 135" transform="rotate(180 128 128)"/></g></svg></span>
-          <div class="text"><h3>QGIS Toolkit</h3><p>Plugins that close the gap between QGIS and ArcGIS, without the license fee.</p></div>
-          <span class="tag">QGIS plugin</span>
-          <span class="status">In development</span>
-        </div>
-        <div class="row" data-kind="data">
-          <span class="num">004</span>
-          <span class="thumb thumb-data" aria-hidden="true"><svg width="56" height="30" viewBox="0 0 56 30" fill="none"><path d="M2 26 L12 20 L20 22 L30 12 L38 15 L46 6 L54 4" stroke="#2f5fae" stroke-width="2.4"/></svg></span>
-          <div class="text"><h3>First dataset</h3><p>Open data, with the notebook that produced it.</p></div>
-          <span class="tag">Dataset</span>
-          <span class="status">Coming soon</span>
-        </div>
-      </section>
 
       <footer class="footer">
         <span>© 2026 Small Proof Labs</span>
@@ -124,17 +74,5 @@
     </div>
   </main>
 
-  <script>
-  {
-    const buttons = [...document.querySelectorAll('.seg button')];
-    const rows = [...document.querySelectorAll('.row')];
-    const apply = (f) => {
-      buttons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.set === f)));
-      rows.forEach(r => { r.hidden = !(f === 'all' || r.dataset.kind === f); });
-    };
-    buttons.forEach(b => b.addEventListener('click', () => apply(b.dataset.set)));
-    document.querySelectorAll('[data-filter]').forEach(a => a.addEventListener('click', () => apply(a.dataset.filter)));
-  }
-  </script>
 </body>
 </html>
